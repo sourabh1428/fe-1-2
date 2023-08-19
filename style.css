@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=DM+Sans:opsz@9..40&family=Gothic+A1&family=Inter&family=Plus+Jakarta+Sans&family=Poppins&family=Preahvihear&family=Roboto&family=Rubik&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}   
+body{
+    font-family: Poppins;
+}
+
+.nav-bar {
+    position: sticky;
+    background-color: rgb(48, 38, 53);
+    color: white;
+    height: 80px;
+    padding: 20px;
+     /* Adjusted padding for better appearance */
+    border-radius: 10px;
+     top: 0; 
+}
+
+.nav-bar>ul{
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size:2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.nav-bar>ul>li>a:hover{
+    background-color: rgb(31, 30, 30);
+}
+
+.books-content{
+    
+    margin-top: 200px;
+    margin-left: 100px;
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+table{
+    width: 100%;
+}
+
+td{
+    border: 2px solid rgb(225, 225, 225);
+    padding: 10px;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid rgb(187, 187, 187);
+    padding: 20px;
+    font-size: larger;
+}
+#innert{
+    border-collapse: collapse;
+}
+table{
+    border-collapse:collapse ;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sec-2{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-size: larger;
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
