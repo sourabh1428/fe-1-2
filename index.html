@@ -13,12 +13,12 @@
     <nav class="nav-bar">
         <ul>
             <li><a href="">Hello user</a></li>
-            <li><a href="">Books</a></li>
-            <li><a href="">Registration</a></li>
+            <li><a href="#myt1">Books</a></li>
+            <li><a href="#myt2">Registration</a></li>
             <li><a href="">Logout</a></li>
         </ul>
     </nav>
-    <div class="books-content">
+    <div class="books-content"  id="myt1">
         <h1>Books</h1>
         <table class="my-table">
             <!-- //Book ID, Title, Author, Genre, and Availability. -->
@@ -80,42 +80,42 @@
 
     </div>
 
-    <div class="sec-2">
-        <h1>Registration</h1>
+    <div class="sec-2 font-monospace" id="myt2">
+        <h1 class="display-1 text-center p-10">Registration</h1>
         <form>
-            <div class="form-group p-3">
+            <div class="form-group p-3 font-Poppins display-5" >
                 <label for="exampleInputEmail1"><b>First Name</b></label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                 
-              </div><div class="form-group p-3">
+              </div><div class="form-group p-3 font-Poppins display-5"">
                 <label for="exampleInputEmail1"><b>Last Name</b></label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                 
               </div>
-              <div class="form-group p-3">
+              <div class="form-group p-3 font-Poppins display-5"">
                 <label for="exampleInputEmail1"><b>Date of Birth</b></label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required >
                 
               </div>
-              <div class="form-group p-3">
+              <div class="form-group p-3 font-Poppins display-5"">
                 <label for="exampleInputEmail1"><b>Age</b></label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <input required min="5" max="100" type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                 
               </div>
-            <div class="form-group p-3">
+            <div class="form-group p-3 font-Poppins display-5"" >
               <label for="exampleInputEmail1"><b>Email address</b></label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
               
             </div>
-            <div class="form-group p-3">
+            <div class="form-group p-3 font-Poppins display-5"">
               <label for="exampleInputPassword1"><b>Password</b></label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <input required pattern=".{6,}" type="password" class="form-control" id="exampleInputPassword1" required>
             </div>
-            <div class="form-group p-3" >
+            <div class="form-group p-3 font-Poppins display-5"" >
                 <label for="exampleInputPassword1"><b>Confirm Password</b></label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <input type="password" class="form-control" id="exampleInputPassword1" required pattern=".{6,}" required>
               </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary btn-lg text-center ">Submit</button>
           </form>
     </div>
 
