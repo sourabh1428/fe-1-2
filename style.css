@@ -4,20 +4,27 @@
 *{
     margin: 0px;
     padding: 0px;
+   
     
 }   
 body{
     font-family: Poppins;
+    background: #000428; 
+background: -webkit-linear-gradient(to top, #004e92, #e6e7f4);
+background: linear-gradient(to top, #004e92, #e1e1e4); 
 }
 
 .nav-bar {
     position: sticky;
-    background-color: rgb(48, 38, 53);
+    background: #41295a;  
+    background: -webkit-linear-gradient(to top, #020003, #41295a); 
+    background: linear-gradient(to top, #15081b, #41295a); 
+    
+
     color: white;
     height: 80px;
     padding: 20px;
      /* Adjusted padding for better appearance */
-    border-radius: 10px;
      top: 0; 
 }
 
@@ -40,7 +47,7 @@ body{
 }
 
 .books-content{
-    
+    background-color: aliceblue;
     margin-top: 200px;
     margin-left: 100px;
     padding: 20px;
@@ -76,6 +83,7 @@ table{
 }
 
 .sec-2{
+    background-color: aliceblue;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
     margin-top: 200px;
     margin-left: 100px;
